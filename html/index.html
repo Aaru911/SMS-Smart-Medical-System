@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>HomeCare</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <!-- owl stylesheets -->
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen">
+      <style>
+         .dark-mode {
+            background-color: #333;
+            color: #fff;
+          }
+      </style>
+</head>
+
+<body>
+   <!-- header section start -->
+   <div class="header_section">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <h3>SMART MEDICAL SYSTEM</h3>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+      </nav>
+      <form action="#" method="get" style="display:flex; justify-content:center; align-items:center;">
+         <label for="search" style="margin-right: 10px;">Search:</label>
+         <input type="text" id="search" name="search"
+            style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px; outline:none; box-shadow:none;"
+            placeholder="Enter search term...">
+         <button type="submit"
+            style="padding: 8px 12px; background-color: #4CAF50; color: white; border-radius: 5px; border: none; font-size: 16px; cursor: pointer;"
+            onclick="get()">Search</button>
+      </form>
+      <script>
+         function get() {
+            x = search.value;
+            var popup = window.open("https://www.google.com/search?q=" + x, "Google Search", "width=600,height=450");
+         }
+      </script>
+      <!-- header section end -->
+      <!-- banner section start -->
+      <div id="main_slider" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="banner_section">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <h1 class="banner_taital">Health <br><span style="color: #151515;">Care</span></h1>
+                           <p class="banner_text">One point Smart MEdical System</p>
+                           <div class="btn_main">
+                              <div class="more_bt"><a href="http://localhost/project/hmsm/">I am a Patient</a></div>
+                              <div class="contact_bt"><a href="http://localhost/project/staff/">I am a Doctor</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="image_1"><img src="images/img-1.png"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="banner_section">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <h1 class="banner_taital">Health <br><span style="color: #151515;">Care</span></h1>
+                           <p class="banner_text">One point Smart MEdical System</p>
+                           <div class="btn_main">
+                              <div class="more_bt"><a href="http://localhost/project/hmsm/">I am a Patient</a></div>
+                              <div class="contact_bt"><a href="http://localhost/project/staff/">I am a Doctor</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="image_1"><img src="images/img-1.png"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="banner_section">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <h1 class="banner_taital">Health <br><span style="color: #151515;">Care</span></h1>
+                           <p class="banner_text">There are many variations of passages of Lorem Ipsum</p>
+                           <div class="btn_main">
+                              <div class="more_bt"><a href="#">Contact Now</a></div>
+                              <div class="contact_bt"><a href="#">Get A Quote</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="image_1"><img src="images/img-1.png"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+            <i class="fa fa-long-arrow-left" style="font-size:24px; padding-top: 4px;"></i>
+         </a>
+         <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+            <i class="fa fa-long-arrow-right" style="font-size:24px; padding-top: 4px;"></i>
+         </a>
+      </div>
+   </div>
+   <!-- banner section end -->
+   <!--Footer section-->
+   <footer>
+      <p style="position: relative; display: inline-block;">Your health is our top priority.</p>
+      <span
+         style="position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: #0077FF; transition: width 0.5s;"></span>
+      <p style="position: relative; display: inline-block;">Trust us to provide expert care and personalized attention,
+         every step of the way.</p>
+      <span
+         style="position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: #0077FF; transition: width 0.5s;"></span>
+      <div>
+         <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+         <script>
+            function toggleDarkMode() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+         </script>
+      </div>
+   </footer>
+   <!--Footer section ends-->
+   <!-- copyright section end -->
+   <!-- Javascript files-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <script src="js/plugin.js"></script>
+   <!-- sidebar -->
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
+   <!-- javascript -->
+   <script src="js/owl.carousel.js"></script>
+   <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
